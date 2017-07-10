@@ -257,7 +257,7 @@ require(vegan)
 getwd() # Ver diretorio
 dir() # Ver o conteudo do diretorio
 #definir o diretorio
-setwd("/Users/bastazini/Dropbox/Estatistica Botanica/Dados") 
+setwd("/Users/...") 
 
 
 #com R trabalhando na mesma pasta
