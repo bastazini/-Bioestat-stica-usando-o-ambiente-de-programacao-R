@@ -1,4 +1,5 @@
-##Abordagens distintas
+##Abordagens distintas em estatitsica
+# Exemplo Análise de Variância usando abordagem Frequentista, Seleção de modelos (e inferência multi-modelos) e abordagem Bayesiana
 
 #gerar dados
 frutos.produzidos=c(12,10,9,9,11,12,8,9,23,21,14,23,26,21)
