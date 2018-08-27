@@ -6,7 +6,7 @@ Diversidade=c(60, 55, 53, 44, 32, 30, 25, 41, 22, 18, 11, 12)
 Precipitacao=c(600, 542,  343,  324,  225,  416,  227,  178,  119, 10, 11, 12)
 a=as.factor(c(1, 1, 1,1, 1, 1, 2, 2, 2, 2, 2, 2))
 
-setwd("/Users/bastazini/Dropbox/Estatistica Botanica/Dados") 
+setwd("/Users/yourfile") 
 
 arvores=read.table("dados.botanica.txt",header=T,row.names=1)
 arvores
