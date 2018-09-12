@@ -128,7 +128,7 @@ lista
 #Reconhecendo a classe de objetos
 class(dados_1)
 class(numeros)
-class(cores)
+class(cores)species interaction networks
 class(dados_3)
 class(lista)
 is.numeric(dados_3)
@@ -449,7 +449,7 @@ dados$Tipo=="Dense"
 mean(dados$Riqueza[dados$Tipo=="Dense"])
 mean(dados$Riqueza[dados$Tipo=="Mixed"])
 
-#Um jeito mais rápidos:
+#Um jeito mais eficiente:
 #tapply(variável quantitativa, variável categórica, o que eu quero saber)
 tapply(dados$Riqueza, dados$Tipo, mean)
 
