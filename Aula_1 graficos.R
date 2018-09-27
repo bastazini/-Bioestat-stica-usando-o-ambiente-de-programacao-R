@@ -1,17 +1,19 @@
 ### Graficos
 #Pacotes que vamos precisar
 install.packages(c("phangorn","png"), dependencies = T)
+require(phangorn)
+require(png)
 # Ver ajudar ?par
 ?par
 #Ver cores
 demo(colors)
 
-#dados
+#Dados
 aves
 ambiente=t(ambiente)
 names(ambiente)
 
-#grafico correlacao
+#Grafico correlacao
 plot(ambiente)
 
 ##Graficos de dispersão
