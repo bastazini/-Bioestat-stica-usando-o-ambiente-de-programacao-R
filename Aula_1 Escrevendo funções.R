@@ -101,12 +101,13 @@ abundancia=rpois(50,lambda=5);abundancia
 shannon(abundancia)
 simpson(abundancia)
 
-ShannonSim=function(x){
+#Funcao para calcular Shannon-Wienner e simpson ao mesmo tempo
+diversidade=function(x){
   x=x[x>0]
   p=x/sum(x)
   H=-sum(p*log(p))
   S=1-sum(p^2)
-  resultado<-c(H,S)
+  resultado=c(H,S)
   return(resultado)
 }
 
@@ -115,7 +116,7 @@ ShannonSim(abundancia)
 #Aplicar a função sobre uma matrix
 #usando os dados de dados
 #para as linhas
-apply(aves, 1, FUN=ShannonSim)
+apply(aves, 1, FUN=diversidade)
 #para as colunas
 apply(aves, 2, FUN=minha.media)
 
