@@ -271,10 +271,11 @@ dim(aves1)
 aves=aves1[,6:35];aves
 
 
-# Escolher arquivo  em outro diretorio
-
-dados=read.table(file.choose(), h=T,row.names=1)#Mac
-dados=read.table(choose.files(), h=T,row.names=1)#Windows
+# Escolher arquivo  em outro diretorio, colunas tem cabeçalhos e a primeira coluna são os "labels" de cada linha
+# Mac
+dados=read.table(file.choose(), h=T,row.names=1)
+#Windows
+dados=read.table(choose.files(), h=T,row.names=1)
 
 #Copiar e colar
 dados.teste<-read.table("clipboard", h=T) # Windows
