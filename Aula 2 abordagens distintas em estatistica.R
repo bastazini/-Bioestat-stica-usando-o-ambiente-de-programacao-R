@@ -42,7 +42,7 @@ n = sum(np)
 niveis = length(np)
 #cálculo da variância (Se2) 
 #matriz diagonal (Vμ), 
-s2hat <- sum((np-1)*k, on fait les modifications ! variancia)/(n-niveis)
+s2hat <- sum((np-1)*variancia)/(n-niveis)
 Vmu <- diag(1/np)
 #Para a simular da distribuição posterior, definimos quantidade de amostras desejada
 m = 5000
